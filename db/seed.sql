@@ -7,5 +7,5 @@ VALUES ('Veggie Burgers', false),
   ('Cheese Burger', true),
   ('Hamburger', false),
   ('Kosher Burger', false),
-  ('Mushroom Burger', true),
+  ('Mushroom Burger', true);
   
