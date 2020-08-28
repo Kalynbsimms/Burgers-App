@@ -1,13 +1,11 @@
-DROP DATABASE IF EXISTS grocery_db;
+DROP DATABASE IF EXISTS burgers_db;
 
-CREATE DATABASE grocery_db;
+CREATE DATABASE burgers_db;
 
-USE grocery_db;
+USE burgers_db;
 
-CREATE TABLE groceries (
+CREATE TABLE burgers (
   id INT UNSIGNED AUTO_INCREMENT NOT NULL PRIMARY KEY,
   name VARCHAR(30) UNIQUE NOT NULL,
-  quantity INT UNSIGNED NOT NULL,
-  cost DOUBLE UNSIGNED NOT NULL,
-  purchased BOOL NOT NULL
+  devoured BOOL NOT NULL
 );
