@@ -1,4 +1,4 @@
-const db = require('./connection.js')
+const db = require('./connections.js')
 
 const orm= {}
 

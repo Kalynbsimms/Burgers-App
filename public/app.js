@@ -41,10 +41,9 @@ document.addEventListener('click', event => {
                 burgerElem.innerHTML = `
        <div class="d-flex w-100 justify-content-between">
          <h5 class="mb-1">${event.target.dataset.name}</h5>
-         <button class="btn btn-danger remove">X</button>
+         <button class="btn btn-danger remove">Delete</button>
        </div>
-       <p class="mb-1">Quantity: ${event.target.dataset.quantity}</p>
-       <small>Price: $${event.target.dataset.cost}</small>
+       
       `
                 document.getElementById('purchased').append(burgerElem)
                 event.target.parentNode.parentNode.remove()
