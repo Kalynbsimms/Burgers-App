@@ -17,14 +17,12 @@ document.getElementById('addBurger').addEventListener('click', event => {
        
           class="purchase btn btn-success">✓</button>
        </div>
-       <p class="mb-1">Quantity: ${document.getElementById('quantity').value}</p>
-       <small>Price: $${document.getElementById('cost').value}</small>
+ 
       `
             document.getElementById('notDevoured').append(burgerElem)
 
             document.getElementById('product').value = ''
-            document.getElementById('quantity').value = ''
-            document.getElementById('cost').value = ''
+           
         })
         .catch(err => console.error(err))
 })
